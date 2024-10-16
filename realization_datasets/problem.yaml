@@ -1,0 +1,61 @@
+bounds:
+- - 0.0001
+  - 0.0004
+- - 0.001
+  - 1
+- - 0.05
+  - 0.25
+- - 0.001
+  - 1
+- - 0.05
+  - 0.2
+- - 0.001
+  - 1
+- - 0.05
+  - 0.25
+- - 0.001
+  - 1
+- - 0.05
+  - 0.25
+- - 5.0e-05
+  - 0.001
+- - 0.001
+  - 0.01
+- - 1.0e-05
+  - 0.001
+- - 0.001
+  - 0.01
+- - 0.05
+  - 1
+names:
+- BC_GW_Infiltration_0
+- Mat_Fracture Anonumus_Kfilt_0
+- Mat_Fracture Anonumus_porosity
+- Mat_Fracture Shumiha_Kfilt_0
+- Mat_Fracture Shumiha_porosity
+- Mat_Fracture Vernechumihinskii_Kfilt_0
+- Mat_Fracture Vernechumihinskii_porosity
+- Mat_Fracture zones_Kfilt_0
+- Mat_Fracture zones_porosity
+- Mat_Matrix_Kfilt_0
+- Mat_Matrix_porosity
+- Mat_Matrix two_Kfilt_0
+- Mat_Matrix two_porosity
+- Mat_Quatemary sediments_Kfilt_0
+names_display_dictionary:
+  BC_GW_Infiltration_0: Infiltration rate
+  Mat_Fracture Anonumus_Kfilt_0: " Hydraulic conductivity:\n Bezymyanny fault"
+  Mat_Fracture Anonumus_porosity: 'Porosity: Bezymyanny fault'
+  Mat_Fracture Shumiha_Kfilt_0: "Hydraulic conductivity:\n Shumikhinsky fault"
+  Mat_Fracture Shumiha_porosity: 'Porosity: Shumikhinsky fault'
+  Mat_Fracture Vernechumihinskii_Kfilt_0: "Hydraulic conductivity:\n Verkhneshumikhinsky\
+    \ fault"
+  Mat_Fracture Vernechumihinskii_porosity: "Porosity:\n Verkhneshumikhinsky fault"
+  Mat_Fracture zones_Kfilt_0: "Hydraulic conductivity:\n other faults"
+  Mat_Fracture zones_porosity: 'Porosity: other faults'
+  Mat_Matrix two_Kfilt_0: "Hydraulic conductivity:\n layers 9-16 matrix"
+  Mat_Matrix two_porosity: 'Porosity: layers 9-16 matrix'
+  Mat_Matrix_Kfilt_0: "Hydraulic conductivity:\n layer 2-8 matrix"
+  Mat_Matrix_porosity: 'Porosity: layers 2-8 matrix'
+  Mat_Quatemary sediments_Kfilt_0: "Hydraulic conductivity:\n Quaternary deposits"
+num_vars: 14

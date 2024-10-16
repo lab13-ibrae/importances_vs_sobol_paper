@@ -1,0 +1,10 @@
+This folder contains datasets used for sensitivity analysis in the paper "Comparison of feature importance measures and variance-based indices for sensitivity analysis: case study of radioactive waste disposal flow and transport model" (V. Svitelman , E. Saveleva, G. Neuvazhaev).
+
+nkm_3d_restart_6000.xlsx - main sample for the analysis. contains inputs and output (last column) of the flow and transport model. sampling strategy: Saltelli modification of Sobol' sequence.
+nkm_3d_restart_v1_6000_uniform.xlsx - additional dataset with uniform sampling of parameters.
+smaller subsets of the main dataset:
+- nkm_3d_restart_cut_1200_from_6000.xlsx
+- nkm_3d_restart_cut_600_from_6000.xlsx
+- nkm_3d_restart_cut_200_from_6000.xlsx
+
+problem.yaml - dictionary with problem description (parameter names and ranges) for sensitivity analysis.
